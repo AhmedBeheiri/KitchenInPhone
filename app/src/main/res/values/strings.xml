@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kitchen in Phone</string>
+    <string name="Error_text">Bad Internet connection...</string>
+    <string name="Error_ing_text">Error getting the ingratiates please check your internet connection</string>
+    <string name="ADDED_FAVOURITE">Recipe added successfully </string>
+    <string name="ADDED_FAVOURITE_ERROR">Error adding recipe to Favourites</string>
+    <string name="REMOVED_FAVOURITE">Recipe removed successfully </string>
+    <string name="REMOVED_FAVOURITE_ERROR">Error removing recipe to Favourites</string>
+    <string name="pref_sorting">sorting</string>
+    <string name="pref_sorting_default">new</string>
+    <string name="Favourite_menu_item">Favourite Recipes</string>
+    <string name="sorting">Sorting</string>
+    <string name="new_menu_Item">New Recipes</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="title_activity_recipeway">Recipeway</string>
+    <string name="publisher_name">publisher Name:</string>
+    <string name="rate">Rate</string>
+    <string name="ingredinte">Ingredinte</string>
+    <string name="button_text">Show the way to cook it</string>
+    <string name="add_widget">Add widget</string>
+    <string name="content_description">food image</string>
+    <string name="content_description_rate">Recipe Rate</string>
+    <string name="floatingactionbutton_content_description">Favourite Recipe Button</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358028505542",
+    "firebase_url": "https://kitcheninphone.firebaseio.com",
+    "project_id": "kitcheninphone",
+    "storage_bucket": "kitcheninphone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358028505542:android:ea0a8a993c267314",
+        "android_client_info": {
+          "package_name": "com.ahmed_beheiri.kitcheninphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358028505542-aqokgm44krk3psumgoe0lqpvsjejnrin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmed_beheiri.kitcheninphone",
+            "certificate_hash": "3c21a8e4df0a64f8cbd2d5eae085b7675b69e5c1"
+          }
+        },
+        {
+          "client_id": "358028505542-i0o4c83vrvj10tnkd34bpiq9q9ju884e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcsjpKW_6EpRgEIlOJJad2cw7w_gNklWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358028505542-i0o4c83vrvj10tnkd34bpiq9q9ju884e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

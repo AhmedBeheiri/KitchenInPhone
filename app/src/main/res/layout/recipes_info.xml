@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/one_fourty_dp_dimen"
+                android:layout_height="@dimen/one_fourty_dp_dimen"
+                android:contentDescription="@string/content_description"
+                android:id="@+id/imagerecipe" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publisher_name"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:id="@+id/publishername" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:id="@+id/rate" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/twenty_dp_dimen"
+            android:layout_marginLeft="@dimen/twenty_dp_dimen"
+            android:text="@string/ingredinte"
+            android:textSize="@dimen/thirty_sp_dimen"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/sixteen_sp_dimen"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginStart="@dimen/twenty_dp_dimen"
+            android:layout_marginLeft="@dimen/twenty_dp_dimen"
+            android:id="@+id/ingredintetext"
+            tools:text="ingredint" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_text"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/showmore"
+            android:background="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>
