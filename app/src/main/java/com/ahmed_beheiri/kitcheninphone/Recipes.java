@@ -155,6 +155,10 @@ public class Recipes implements Parcelable {
 
         long movieDeleted = context.getContentResolver().delete(uri, null, null);
         if (movieDeleted > 0) {
+            AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
+            int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(context, RecipeWidget.class));
+            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widgetlist);
+            RecipeWidget.updateAppWidget(context, appWidgetManager, appWidgetIds);
             Toast.makeText(context, R.string.REMOVED_FAVOURITE, Toast.LENGTH_SHORT).show();
             return true;
         } else {
