@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/content_description_rate"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_heart" />
+                    android:src="@drawable/ic_favorite_pink_a700_24dp" />
 
                 <TextView
                     android:id="@+id/votes"

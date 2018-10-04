@@ -23,4 +23,5 @@
     <string name="content_description">food image</string>
     <string name="content_description_rate">Recipe Rate</string>
     <string name="floatingactionbutton_content_description">Favourite Recipe Button</string>
+    <string name="Api_key">5e31c2219fdb33e6abd41ec7158a1d78</string>
 </resources>

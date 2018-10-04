@@ -1,5 +1,6 @@
 package com.ahmed_beheiri.kitcheninphone;
 
+import android.content.Context;
 import android.net.Uri;
 
 import java.io.IOException;
@@ -11,7 +12,7 @@ import java.util.Scanner;
 
 
 final public class Network {
-    private static final String key_api = "Enter your Api key here";
+    private static final String key_api = "5e31c2219fdb33e6abd41ec7158a1d78";
 
     private static final String baseuri = "http://food2fork.com/api/";
     private static final String PAGE = "page";

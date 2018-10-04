@@ -72,9 +72,9 @@ public class DetailesActivity extends AppCompatActivity implements LoaderManager
 
 
             if (recipe.isFavourited(this)) {
-                favouritefab.setImageResource(R.drawable.ic_heart);
+                favouritefab.setImageResource(R.drawable.ic_favorite_pink_a700_24dp);
             } else {
-                favouritefab.setImageResource(R.drawable.ic_heart_border);
+                favouritefab.setImageResource(R.drawable.ic_favorite_border_indigo_900_24dp);
             }
 
 
@@ -161,11 +161,11 @@ public class DetailesActivity extends AppCompatActivity implements LoaderManager
                 public void onClick(View v) {
                     if (!recipe.isFavourited(context)) {
                         if (recipe.saveToFavourits(context)) {
-                            favouritefab.setImageResource(R.drawable.ic_heart);
+                            favouritefab.setImageResource(R.drawable.ic_favorite_pink_a700_24dp);
                         }
                     } else {
                         if (recipe.removeFromFavourite(context)) {
-                            favouritefab.setImageResource(R.drawable.ic_heart_border);
+                            favouritefab.setImageResource(R.drawable.ic_favorite_border_indigo_900_24dp);
                         }
                     }
 

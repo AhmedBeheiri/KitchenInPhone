@@ -63,7 +63,7 @@
         android:contentDescription="@string/floatingactionbutton_content_description"
         android:layout_margin="@dimen/twenty_dp_dimen"
         android:elevation="@dimen/six_dp_dimen"
-        android:src="@drawable/ic_heart_border"
+        android:src="@drawable/ic_favorite_border_indigo_900_24dp"
         app:layout_anchor="@id/app_bar_layout"
         app:layout_anchorGravity="bottom|end" />
 </android.support.design.widget.CoordinatorLayout>
